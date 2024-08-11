@@ -1,0 +1,253 @@
+.location {
+   padding-top: 30px;
+   padding-left: 322px;
+   &__popaps1 {
+      margin-top: 43px;
+   }
+   &__popaps1-box {
+      display: flex;
+   }
+   &__popaps1-icon {
+      margin-right: 15px;
+      img {
+         width: 20px;
+         height: 20px;
+      }
+   }
+
+   &__popaps1-icon-dot {
+      align-self: center;
+      margin-right: 15px;
+      img {
+         width: 4px;
+         height: 16px;
+      }
+   }
+
+   &__popaps1-name {
+      align-self: center;
+
+      /* Локация 1 */
+      margin-right: 30px;
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+
+      /* black */
+      color: #172139;
+   }
+
+   &__popaps1-number {
+      align-self: center;
+
+      margin-right: 30px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #ff6600;
+   }
+
+   &__popaps1-edid {
+      cursor: pointer;
+      align-self: center;
+
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+   }
+
+   &__popaps1-edid-icon {
+      img {
+         width: 12px;
+         height: 12px;
+      }
+   }
+
+   &__popaps1-edid-text {
+      /* Редактировать */
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #ff6600;
+   }
+
+   &__popaps1-remove {
+      cursor: pointer;
+      align-self: center;
+
+      display: flex;
+      //align-items: center;
+      //justify-content: center;
+      gap: 5px;
+   }
+
+   &__popaps1-remove-icon {
+      margin-top: 4px;
+
+      img {
+         width: 10px;
+         height: 10px;
+      }
+   }
+
+   &__popaps1-remove-text {
+      align-self: center;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #ff5959;
+   }
+}
+//-------Под отдел 1
+.location {
+   &__popaps1-subdivision1 {
+      display: none;
+      margin-top: 20px;
+      padding-left: 45px;
+   }
+   &__popaps1-subdivision1-active {
+      display: block;
+   }
+   &__popaps1-subdivision1-box {
+      display: flex;
+   }
+
+   &__popaps1-subdivision1-icon {
+      margin-right: 15px;
+      img {
+         width: 20px;
+         height: 20px;
+      }
+   }
+
+   &__popaps1-subdivision1-icon-dot {
+      margin-right: 15px;
+      align-self: center;
+      img {
+         width: 4px;
+         height: 16px;
+      }
+   }
+
+   &__popaps1-subdivision1-name {
+      align-self: center;
+
+      margin-right: 30px;
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+
+      color: #172139;
+   }
+
+   &__popaps1-subdivision1-number {
+      margin-right: 30px;
+      align-self: center;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #ff6600;
+   }
+
+   &__popaps1-subdivision1-type {
+      align-self: center;
+
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+   }
+}
+//-------------------ПодПод отдел
+.location {
+   &__popaps1-subdivision1-subsub {
+      padding-left: 103px;
+      margin-top: 17px;
+      display: flex;
+      display: none;
+   }
+   &__popaps1-subdivision1-subsub-active {
+      display: flex;
+   }
+   &__popaps1-subdivision1-icon-dot-subsub {
+      margin-right: 15px;
+      img {
+         width: 4px;
+         height: 16px;
+      }
+   }
+
+   &__popaps1-subdivision1-name-subsub {
+      align-self: center;
+      margin-right: 30px;
+
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+
+      /* black */
+      color: #172139;
+   }
+
+   &__popaps1-subdivision1-number-subsub {
+      align-self: center;
+
+      margin-right: 30px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #ff6600;
+   }
+
+   &__popaps1-subdivision1-type1-subsub {
+      align-self: center;
+
+      margin-right: 30px;
+      font-family: 'Montserrat';
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+   }
+
+   &__popaps1-subdivision1-type2-subsub {
+      align-self: center;
+
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+   }
+}

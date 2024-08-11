@@ -1,0 +1,72 @@
+.nav-menu {
+   position: absolute;
+   top: 109px;
+   &__list {
+   }
+
+   &__item {
+      cursor: pointer;
+      align-items: center;
+      // padding-left: 15px;
+      // padding-right: 15px;
+      width: 290px;
+      height: 65px;
+      margin-bottom: 1px;
+      background-color: #fff;
+      display: flex;
+      gap: 16px;
+   }
+   &__item:last-child {
+      justify-content: center;
+      gap: 14px;
+      div {
+         margin: 4px 0 0 0;
+         img {
+            width: 7px;
+         }
+      }
+      p {
+         font-family: 'Futura PT';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 17px;
+         line-height: 22px;
+
+         color: #ff6600;
+      }
+   }
+   &__item:last-child:hover {
+      p {
+         color: #ff6600;
+      }
+   }
+   &__item:hover {
+      background-color: #172139;
+      p {
+         color: #fff;
+      }
+   }
+   &__icon {
+      margin-left: 15px;
+
+      img {
+         width: 15px;
+      }
+   }
+
+   &__text {
+      align-self: center;
+      /* Имущество */
+
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 22px;
+
+      /* black */
+      color: #172139;
+   }
+   &__text:hover {
+   }
+}

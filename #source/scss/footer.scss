@@ -1,0 +1,50 @@
+.footer {
+   max-width: 1920px;
+   height: 80px;
+
+   &__box {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__block-1 {
+   }
+
+   &__block-2 {
+      display: flex;
+      gap: 30px;
+   }
+
+   &__block-2-text {
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+
+      color: #a5a5a5;
+   }
+
+   &__block-3 {
+      display: flex;
+      gap: 7px;
+   }
+
+   &__block-3-icon {
+      img {
+      }
+   }
+   &__block-3-text {
+      align-self: center;
+      padding-right: 30px;
+
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-decoration-line: underline;
+
+      color: #ff6600;
+   }
+}

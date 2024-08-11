@@ -1,0 +1,135 @@
+.search {
+   padding-top: 80px;
+   padding-right: 30px;
+   // max-width: 610px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   &__synchronization {
+      width: 336px;
+      height: 50px;
+      background-color: #172038;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+   }
+
+   &__synchronization-icon {
+      img {
+         width: 20px;
+      }
+   }
+
+   &__synchronization-text {
+      align-self: center;
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      color: #ffffff;
+
+      span {
+         margin-left: 10px;
+         font-family: 'Futura PT';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 10px;
+         line-height: 13px;
+
+         letter-spacing: 0.1em;
+         text-transform: uppercase;
+
+         color: #ffffff;
+      }
+   }
+   &__check-box {
+      margin-top: 25px;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      line-height: 17px;
+
+      display: flex;
+
+      color: #000000;
+      label {
+         align-self: center;
+         // width: 400px;
+      }
+   }
+   // &__real-checkbox {
+   //    width: 0;
+   //    height: 0;
+   //    opacity: 0;
+   //    position: absolute;
+   //    z-index: -1;
+   // }
+   // &__custom-checkbox {
+   //    position: relative;
+   //    display: inline-block;
+   //    width: 20px;
+   //    height: 20px;
+
+   //    background-color: inherit;
+   //    border-radius: 2px;
+   //    vertical-align: sub;
+   //    border: 1px solid #ff6600;
+   // }
+
+   // &__custom-checkbox::before {
+   //    content: '';
+   //    display: inline-block;
+   //    width: 22px;
+   //    height: 22px;
+
+   //    background-image: url('../img/main/mark2.png');
+   //    background-size: contain;
+   //    background-repeat: no-repeat;
+
+   //    position: absolute;
+   //    top: 50%;
+   //    left: 50%;
+   //    transform: translate(-50%, -50%) scale(0);
+   // }
+
+   // &__real-checkbox:checked + &__custom-checkbox::before {
+   //    transform: translate(-50%, -50%) scale(1);
+   // }
+
+   &__search {
+      display: flex;
+      margin-left: 25px;
+      width: 300px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 5px;
+   }
+
+   &__search-icon {
+      align-self: center;
+      margin-left: 20px;
+      margin-right: 6px;
+   }
+
+   &__search-input {
+   }
+   &__search-input::placeholder {
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      /* grey */
+      color: #aeaeae;
+   }
+}

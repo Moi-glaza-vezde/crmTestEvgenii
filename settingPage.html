@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <title>setting</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="header__iacon-necktie"><img src="./img/header/Group 1.png" alt="" /></div>
+            <div class="header__icon-version"><img src="./img/header/2.01.png" alt="" /></div>
+            <div class="header__icon-exit"><img src="./img/header/Vector.png" alt="" /></div>
+
+            <nav class="nav-menu">
+               <ul class="nav-menu__list">
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo1.png" alt="" />
+                     </div>
+                     <p class="nav-menu__text">Имущество</p>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo2.png" alt="" />
+                     </div>
+                     <p class="nav-menu__text">Инвентаризация</p>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo3.png" alt="" />
+                     </div>
+                     <p class="nav-menu__text">Сотрудники</p>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo4.png" alt="" />
+                     </div>
+                     <p class="nav-menu__text">Уведомления</p>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo5.png" alt="" />
+                     </div>
+                     <a href="index.html"> <p class="nav-menu__text">Локации</p></a>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo6.png" alt="" />
+                     </div>
+                     <a href="settingPage.html">
+                        <p class="nav-menu__text">Настройки</p>
+                     </a>
+                  </li>
+                  <li class="nav-menu__item">
+                     <div class="nav-menu__icon">
+                        <img src="./img/header/nav/logo7.png" alt="" />
+                     </div>
+                     <p class="nav-menu__text">Скрыть меню</p>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <main class="main">
+            <div class="setting">
+               <div class="setting__rout">
+                  <p class="setting__rout-setting">Настройки</p>
+                  <p class="setting__rout-hash">&#8260;</p>
+                  <p class="setting__rout-location">Локации</p>
+               </div>
+               <nav class="setting__nav">
+                  <ul class="setting__nav-list">
+                     <li class="setting__nav-item">Имущество</li>
+                     <li class="setting__nav-item">Инвентаризация</li>
+                     <li class="setting__nav-item">Сотрудники</li>
+                     <li class="setting__nav-item">Локации</li>
+                     <li class="setting__nav-item">Уведомления</li>
+                     <li class="setting__nav-item">Справочники</li>
+                     <li class="setting__nav-item">Пользователь</li>
+                  </ul>
+               </nav>
+
+               <div class="setting__table">
+                  <h1 class="setting__title">Настройка полей таблицы</h1>
+                  <div class="setting__table-container">
+                     <div class="setting__table-title-row">
+                        <ul class="setting__table-title-list">
+                           <li class="setting__table-title-item item1">Описание</li>
+                           <li class="setting__table-title-item item2">Сортировка</li>
+                           <li class="setting__table-title-item item3">ID</li>
+                           <li class="setting__table-title-item item4">Тип поля</li>
+                           <li class="setting__table-title-item item5">Выводить в таблицу</li>
+                           <li class="setting__table-title-item item6">Обязательно</li>
+                           <li class="setting__table-title-item item7">Удалить</li>
+                        </ul>
+                     </div>
+                     <!-- 1 ряд ------------------------------------->
+                     <div class="setting__table-row bg-white">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Название</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <img src="./img/pagesetting/help-circle.png" alt="" />
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">500</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1001</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Строка</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check"></div>
+                        </div>
+                     </div>
+                     <!-- 2 ряд ------------------------------------->
+
+                     <div class="setting__table-row">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Цена</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">510</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1002</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Число</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 3 ряд ------------------------------------->
+
+                     <div class="setting__table-row bg-white">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">МОЛ</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">520</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1003</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <div class="setting__table-row-field-type-text">
+                              <p class="setting__table-row-field-type-text-text">Справочник</p>
+                              <div class="setting__table-row-field-type-text-icon">
+                                 <img src="./img/pagesetting/file.png" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 4 ряд ------------------------------------->
+
+                     <div class="setting__table-row">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Фото</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">530</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1004</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Фаил</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 5 ряд ------------------------------------->
+
+                     <div class="setting__table-row bg-white">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Цвет</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">540</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1005</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Строка</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 6 ряд ------------------------------------->
+
+                     <div class="setting__table-row">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Локация</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">550</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1006</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <div class="setting__table-row-field-type-text">
+                              <p class="setting__table-row-field-type-text-text">Справочник</p>
+                              <div class="setting__table-row-field-type-text-icon">
+                                 <img src="./img/pagesetting/file.png" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 7 ряд ------------------------------------->
+
+                     <div class="setting__table-row bg-white">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Количество</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">560</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1007</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Число</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 8 ряд ------------------------------------->
+
+                     <div class="setting__table-row">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Описание</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">570</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1008</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Текст</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- 9 ряд ------------------------------------->
+
+                     <div class="setting__table-row bg-white">
+                        <div class="setting__table-row-type">
+                           <div class="setting__table-row-type-icon1">
+                              <img src="./img/pagesetting/popapDot.png" alt="" />
+                           </div>
+                           <p class="setting__table-row-type-name">Количество</p>
+                           <div class="setting__table-row-type-icon2">
+                              <img src="./img/pagesetting/popapEdit.png" alt="" />
+                           </div>
+                        </div>
+                        <div class="setting__table-row-description">
+                           <div class="setting__table-row-description-icon">
+                              <!-- <img src="./img/pagesetting/help-circle.png" alt="" /> -->
+                           </div>
+                        </div>
+
+                        <div class="setting__table-row-sorting">
+                           <p class="setting__table-row-sorting-number">580</p>
+                        </div>
+                        <div class="setting__table-row-id">
+                           <p class="setting__table-row-id-number">1009</p>
+                        </div>
+                        <div class="setting__table-row-field-type">
+                           <p class="setting__table-row-field-type-text">Число</p>
+                        </div>
+                        <div class="setting__table-row-output">
+                           <div class="setting__table-row-output-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-mandatory">
+                           <div class="setting__table-row-mandatory-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="setting__table-row-remove">
+                           <div class="setting__table-row-remove-check">
+                              <label>
+                                 <input class="real-checkbox" type="checkbox" />
+                                 <span class="custom-checkbox"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="setting__table-edit-btn">
+                     <div class="setting__table-edit-btn-icon-box">
+                        <div class="setting__table-edit-btn-icon">
+                           <img src="./img/pagesetting/Плюс.png" alt="" />
+                        </div>
+
+                        <p class="setting__table-edit-btn-text">Добавить поле</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer-setting-page">
+            <div class="footer-setting-page__box">
+               <div class="footer-setting-page__btn-box">
+                  <div class="footer-setting-page__btn1">
+                     <div class="footer-setting-page__btn1-icon">
+                        <img src="./img/pagesetting/Сохранить.png" alt="" />
+                     </div>
+                     <div class="footer-setting-page__btn1-text">Сохранить</div>
+                  </div>
+                  <div class="footer-setting-page__btn2">
+                     <div class="footer-setting-page__btn2-text">Отменить</div>
+                  </div>
+               </div>
+               <div class="footer-setting-page__block2">
+                  <div class="footer-setting-page__block2-icon">
+                     <img src="./img/footer/footer-icon.png" alt="" />
+                  </div>
+                  <p class="footer-setting-page__block2-text"><a href="#">Документация</a></p>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script defer src="./js/main.js"></script>
+   </body>
+</html>

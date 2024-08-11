@@ -1,0 +1,68 @@
+.setting {
+   padding-top: 30px;
+   padding-left: 340px;
+   &__rout {
+      display: flex;
+      gap: 10px;
+   }
+
+   &__rout-setting {
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+
+      color: #000000;
+   }
+
+   &__rout-hash {
+      font-size: 35px;
+      font-weight: 900;
+   }
+
+   &__rout-location {
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+
+      color: #000000;
+   }
+
+   &__nav {
+      padding-top: 25px;
+   }
+
+   &__nav-list {
+      display: flex;
+      gap: 20px;
+   }
+
+   &__nav-item {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 140px;
+      height: 37px;
+
+      background: #ffffff;
+      border-radius: 5px;
+
+      font-family: 'Futura PT';
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+
+      text-align: center;
+
+      color: #172139;
+   }
+
+   &__nav-item:hover {
+      color: #ffffff;
+      background-color: #172139;
+   }
+}
